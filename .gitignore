@@ -351,3 +351,6 @@ MigrationBackup/
 
 # Ignore .vscode directory
 .vscode/
+
+# Ignore pack & push scripts
+pack.sh
