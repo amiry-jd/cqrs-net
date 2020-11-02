@@ -5,10 +5,6 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.NET", "CQRS.NET\CQRS.NET.csproj", "{7604FBD2-4DD2-40CE-A34F-CF5D8C5DC2AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.NET.Autofac", "CQRS.NET.Autofac\CQRS.NET.Autofac.csproj", "{58C889F5-FC75-4949-9956-F83F37A1B38C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.NET.Autofac.Tests", "CQRS.NET.Autofac.Tests\CQRS.NET.Autofac.Tests.csproj", "{A66833B4-FD8A-433A-B07E-AF4AEE2420DF}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
