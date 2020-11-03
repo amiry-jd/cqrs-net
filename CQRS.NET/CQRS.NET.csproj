@@ -16,7 +16,7 @@
     <RepositoryUrl>https://github.com/ravy-amiry/cqrs-net</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryBranch>main</RepositoryBranch>
-    <RepositoryCommit>aa56911d2e22c027aaf913725289acf8f466be52</RepositoryCommit>
+    <RepositoryCommit>9fac7b8e4fbdfacdab98d66df220298113d56d16</RepositoryCommit>
 
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
 
