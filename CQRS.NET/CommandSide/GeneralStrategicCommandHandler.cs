@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace CQRS.NET.CommandSide {
+namespace CQRS.NET {
     public class GeneralStrategicCommandHandler<TCommand> : ICommandHandler<TCommand> where TCommand : ICommand {
 
         private readonly IExtendedServiceProvider _provider;
