@@ -7,7 +7,7 @@
 
     <!-- nuget package properties -->
 
-    <Version>0.2.0</Version>
+    <Version>0.3.0</Version>
     <Description>A simple CQRS library for .NET projects.</Description>
 
     <IsPackable>true</IsPackable>
