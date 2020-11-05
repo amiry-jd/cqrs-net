@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 namespace CQRS.NET {
     public sealed class DefaultHandlerExecutor : IHandlerExecutor {
 
-        private readonly IServiceProvider _serviceProvider;
+        private readonly IExtendedServiceProvider _serviceProvider;
 
-        public DefaultHandlerExecutor(IServiceProvider serviceProvider) => _serviceProvider = serviceProvider;
+        public DefaultHandlerExecutor(IExtendedServiceProvider serviceProvider) => _serviceProvider = serviceProvider;
 
         public async Task<TResult> ExecuteAsync<TResult>(IQuery<TResult> query) {
             var serviceType = TypeCache.GetOrAdd(query.GetType(),
